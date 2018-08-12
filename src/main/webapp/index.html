@@ -1,0 +1,84 @@
+<html lang="pt-br" >
+<head>
+<title>SUAP: Sistema Unificado de Administração Pública - Login</title>
+<meta name="robots" content="NONE,NOARCHIVE" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="/static/comum/img/favicon.png" />
+<link rel="stylesheet" href="/static/comum/fontawesome/css/fontawesome-all.min.css" />
+<link type="text/css" rel="stylesheet" href="/static/comum/css/estilo.css" />
+<link type="text/css" rel="stylesheet" href="/static/comum/css/forms.css" />
+<link type="text/css" rel="stylesheet" href="/static/comum/css/login.css" />
+<script src="/static/comum/js/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#id_username").focus();
+});
+</script>
+    <style>
+        .login .g-recaptcha {
+            display: block;
+        }
+
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-br" async defer></script>
+
+</head>
+
+<body class="login">
+    <div id="content">
+
+
+        <div class="login-form">
+
+            <h1>SUAP: Sistema Unificado de Administração Pública</h1>
+            
+            
+            
+            <form action="/seguranca/login" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='kj7MNK3yp0vt9jL2zi2Svn4gs4HQ2nbKrfHmnKyn1cQJPyZKLuHdV2uXqTWJJ8OH' />
+                <div class="form-row">
+                    
+                    <label for="id_username" class="required">Usuário:</label>
+                    <input type="text" name="username" autofocus="autofocus" required="required" id="id_username" maxlength="254" />
+                </div>
+                <div class="form-row">
+                    
+                    <label for="id_password" class="required">Senha:</label>
+                    <input type="password" name="password" required="required" id="id_password" />
+                    <input type="hidden" name="this_is_the_login_form" value="1" />
+                    <input type="hidden" name="next" value="/" />
+                </div>
+                <div class="form-row">
+                    
+
+                    <div style="display: flex;justify-content: center; margin-top:10px;">
+                        
+                    </div>
+                </div>
+
+                <div class="submit-row">
+                    <input type="submit" value="Acessar" />
+                </div>
+                <div class="form-row">
+                    <a href="/comum/solicitar_trocar_senha/">Esqueceu sua senha?</a>
+                    <a href="/comum/solicitar_trocar_senha/">Deseja alterar sua senha?</a>
+                </div>
+            </form>
+        </div>
+        <div class="login-services">
+            <h3>Serviços</h3>
+            <ul>
+                <li><a href="/protocolo/consulta_publica"><span class="fas fa-file-alt"></span> Consulta de Processos</a></li>
+                <li><a href="/comum/solicitar_trocar_senha/"><span class="fas fa-user-secret"></span> Troca de senha</a></li>
+                <li><a href="/comum/autenticar_documento/"><span class="fas fa-lock"></span> Autenticação de Documento</a></li>
+                <li><a href="/expedicao/formulario_diariapassagem">
+                    <span class="fas fa-plane"></span> Proposta de diárias e passagens</a></li>
+                <li><a href="/edu/acesso_responsavel/"><span class="fas fa-key"></span> Acesso do Responsável</a></li>
+                <li><a href="/estagios/avaliar_pratica_profissional_supervisor/"><span class="fas fa-chart-line"></span> Avaliação de Estágio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login-footer">
+        <p>&copy; 2018 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br">IFRN</a> / <a href="http://portal.ifpb.edu.br">IFPB</a></p>
+    </div>
+</body>
+</html>
