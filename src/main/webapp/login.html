@@ -1,16 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html lang="pt-br" >
     <head>
         <title>SUAP: Sistema Unificado de Administração Pública - Login</title>
-        <meta name="robots" content="NONE,NOARCHIVE" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="robots" content="NONE,NOARCHIVE">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--<link rel="shortcut icon" href="/static/comum/img/favicon.png" />
-        <link rel="stylesheet" href="/static/comum/fontawesome/css/fontawesome-all.min.css" />
-        <link type="text/css" rel="stylesheet" href="/static/comum/css/estilo.css" />
-        <link type="text/css" rel="stylesheet" href="/static/comum/css/forms.css" />
-        <link type="text/css" rel="stylesheet" href="/static/comum/css/login.css" />
-        <script src="/static/comum/js/jquery.min.js"></script>-->
-        <link type="text/css" href="css/estilo.css" rel="stylesheet">
-        <link type="text/css" href="css/login.css" rel="stylesheet">
+        <link rel="shortcut icon" href="static/comum/img/favicon.png">
+        <link rel="stylesheet" href="static/comum/fontawesome/css/fontawesome-all.min.css">
+        <link type="text/css" rel="stylesheet" href="static/comum/css/estilo.css">
+        <link type="text/css" rel="stylesheet" href="static/comum/css/forms.css">
+        <link type="text/css" rel="stylesheet" href="static/comum/css/login.css">
+        <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1531759913576/recaptcha__pt_br.js"></script><script src="/static/comum/js/jquery.min.js"></script>
         <script>
             $(document).ready(function () {
                 $("#id_username").focus();
@@ -22,7 +30,7 @@
             }
 
         </style>
-        <script src="https://www.google.com/recaptcha/api.js?hl=pt-br" async defer></script>
+        <script src="https://www.google.com/recaptcha/api.js?hl=pt-br" async="" defer=""></script>
 
     </head>
 
@@ -36,18 +44,18 @@
 
 
 
-                <form action="/seguranca/login" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='kj7MNK3yp0vt9jL2zi2Svn4gs4HQ2nbKrfHmnKyn1cQJPyZKLuHdV2uXqTWJJ8OH' />
+                <form action="" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="Pzxk4PLkJXMvUrWO8vW38YhxqNcP6wKTlLZcCItGvxMSkdc5r4N6OSBnvU2vTmhD">
                     <div class="form-row">
 
                         <label for="id_username" class="required">Usuário:</label>
-                        <input type="text" name="username" autofocus="autofocus" required="required" id="id_username" maxlength="254" />
+                        <input type="text" name="username" autofocus="autofocus" required="required" id="id_username" maxlength="254">
                     </div>
                     <div class="form-row">
 
                         <label for="id_password" class="required">Senha:</label>
-                        <input type="password" name="password" required="required" id="id_password" />
-                        <input type="hidden" name="this_is_the_login_form" value="1" />
-                        <input type="hidden" name="next" value="/" />
+                        <input type="password" name="password" required="required" id="id_password">
+                        <input type="hidden" name="this_is_the_login_form" value="1">
+                        <input type="hidden" name="next" value="/">
                     </div>
                     <div class="form-row">
 
@@ -58,7 +66,7 @@
                     </div>
 
                     <div class="submit-row">
-                        <input type="submit" value="Acessar" />
+                        <input type="submit" value="Acessar">
                     </div>
                     <div class="form-row">
                         <a href="/comum/solicitar_trocar_senha/">Esqueceu sua senha?</a>
@@ -80,7 +88,8 @@
             </div>
         </div>
         <div class="login-footer">
-            <p>&copy; 2018 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br">IFRN</a> / <a href="http://portal.ifpb.edu.br">IFPB</a></p>
+            <p>© 2018 SUAP | Desenvolvimento: <a href="http://portal.ifrn.edu.br">IFRN</a> / <a href="http://portal.ifpb.edu.br">IFPB</a></p>
         </div>
+
     </body>
 </html>

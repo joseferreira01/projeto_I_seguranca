@@ -1,0 +1,13 @@
+
+
+footer{
+	background: green;
+	color: #fff;
+	padding: 30px 0;
+	clear: both;
+}
+
+footer h4{
+	font-size: 1.3em;
+	text-align: center;	
+}
