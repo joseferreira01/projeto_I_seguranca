@@ -8,7 +8,7 @@
 
 **Professor**: 	Cícero Aristofánio Garcia de Araújo
 
-**Alunos**: José Ferreira Vieira, Edilva Carvalho Soares
+**Alunos**: Edilva Carvalho Soares, José Ferreira Vieira
 
 <h3 align="center">
   Ataque man-in-the-middle
