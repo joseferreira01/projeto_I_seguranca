@@ -4,9 +4,9 @@
 
 **Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas**
 
-**Segurança de dados**
+**Disciplina Segurança de dados**
 
-**Professor**: 	Cícerp Aristofánio Garcia de Araújo
+**Professor**: 	Cícero Aristofánio Garcia de Araújo
 
 **Alunos**: José Ferreira Vieira, Edilva Carvalho Soares
 
