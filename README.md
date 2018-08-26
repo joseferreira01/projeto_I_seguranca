@@ -14,7 +14,7 @@
   Ataque man-in-the-middle
 </h3>
 
-Para ver detalhes sobre especificaçÕes do projeto
+Para ver detalhes sobre especificações do projeto
  Em produção
 
 
