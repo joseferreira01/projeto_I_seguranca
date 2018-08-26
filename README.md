@@ -6,9 +6,9 @@
 
 **Segurança de dados**
 
-**Professor**: 	CÍCERO ARISTOFÂNIO GARCIA DE ARAÚJO
+**Professor**: 	Cícerp Aristofánio Garcia de Araújo
 
-**Alunos**: José Ferreira, Edilva Soares
+**Alunos**: José Ferreira Vieira, Edilva Carvalho Soares
 
 <h3 align="center">
   Ataque man-in-the-middle
